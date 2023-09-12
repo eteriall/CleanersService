@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 style="width:100%">Вход в аккаунт</h1>
+<form action="/cleaners/login" method="POST">
+    <label for="username" style="margin-bottom:15px;">Введите номер телефона</label><br>
+    <input type="number" id="username" name="username"><br><br>
+    <input type="submit" class="btn btn-primary" value="Получить код">
+
+</form>
+
+<div class="input-group mb-3">
+
+</div>
+
+{% endblock %}
+
